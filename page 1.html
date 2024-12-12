@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page 1</title>
+
+		<!-- BOOTSTRAP CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+	
+    body{
+    	background-color: #cca4eb;
+        background-image: url('Background purple.jpeg');
+        background-repeat: no repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background: #a99dcf;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background: #e6d5f5;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .service img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+       .service a:link, a:visited {
+  background-color: #DFC5FE;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #a99dcf;
+}
+
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md fixed-top" style="background-color: #a978cf;">
+
+        <!-- Brand/Logo -->
+        <div class="container-fluid"> 
+            <a class="nav-link" href="index.html"><img src="Icon.png" width="50"><a>
+
+         <!-- Add links -->
+           <div class="collapse navbar-collapse">
+
+             <!--me-auto adjust pushes the search bar to the right -->
+             <ul class="navbar-nav me-auto">
+                <li class="nav-item"> <a class="nav-link" href="page 1.html">Recipes</a> </li> 
+                <li class="nav-item"> <a class="nav-link" href="page 2.html">Contact us!</a> </li> 
+                <li class="nav-item"> <a class="nav-link" href="page 3.html">Suggestions?</a> </li> 
+             </ul>
+
+        <!-- Add search bar --> 
+             <form class="d-flex">
+                      <input class="form-control" type="text" placeholder="search..."> <button class="btn btn-light" type="button">Search</button>
+             </form>
+         </div>
+     </div>
+   </nav>
+
+<br>
+<br>
+<br>
+<br>
+
+    <div class="services">
+        <div class="service">
+            <img src="Brownies box.jpeg" alt="Brownies">
+            <h3> ~Fudge Fantasy~ </h3>
+            <p><em>A chewy and chocolatey brownie for the chocolate lovers<3</em></p>
+            <br>
+            <br>
+            <a class="nav-link" href="brownies.html">View recipe</a>
+        </div>
+        <div class="service">
+            <img src="Cookies box.jpeg" alt="Cookies">
+            <h3> ~Sweet Crumbs~</h3>
+            <p><em>A small, sweet, baked dessert for eevry little appetite<3</em></p>
+            <br>
+            <br>
+            <a class="nav-link" href="Cookies.html"> View recipe</a>
+        </div>
+        <div class="service">
+            <img src="Cake box.jpeg" alt="Cake">
+            <h3> ~Cocoa's blissful delight~ </h3>
+            <p><em>A rich and sinfully delicious dessert for every special occasion<3</em></p>
+            <br>
+            <br>
+            <a class="nav-link" href="cake.html">View recipe</a>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
